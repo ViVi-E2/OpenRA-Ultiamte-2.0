@@ -52,12 +52,10 @@ GENERAL:
 	GivesBuildableArea:
 		AreaTypes: building, fake
     Exit@1:
-		RequiresCondition: !being-captured
 		SpawnOffset: -170,810,0
 		ExitCell: 1,2
 		ProductionTypes: Soldier, Infantry
 	Exit@2:
-		RequiresCondition: !being-captured
 		SpawnOffset: -725,640,0
 		ExitCell: 0,2
 		ProductionTypes: Soldier, Infantry

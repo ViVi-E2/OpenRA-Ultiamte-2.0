@@ -267,7 +267,6 @@ BTEK:
 	ProvidesPrerequisite@buildingname:
     ProvidesRadar:
     GpsPower:
-		PauseOnCondition: disabled
 		Icon: gps
 		OneShot: true
 		ChargeInterval: 12000

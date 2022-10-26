@@ -61,7 +61,6 @@ factengineer:
 RepairBot2:
     Inherits@1: ^ExistsInWorld
 	Inherits@2: ^GainsExperience
-	Inherits@3: ^InfantryExperienceHospitalOverrides
 	Inherits@4: ^SpriteActor
 	Inherits@bounty: ^GlobalBounty
 	Inherits@selection: ^SelectableCombatUnit
