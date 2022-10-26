@@ -279,11 +279,6 @@ World:
 		ClassName: MCV Only
 		Factions: biter
 		BaseActor: expandsmall
-    MPStartUnits@mcvonlyair:
-		Class: none
-		ClassName: MCV Only
-		Factions: air
-		BaseActor: mcvair
     MPStartUnits@mcvonlyengineer:
 		Class: none
 		ClassName: MCV Only

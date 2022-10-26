@@ -166,13 +166,6 @@ FlameTowerGun:
 	Explodes:
 		Weapon: BuildingExplode
 		EmptyWeapon: BuildingExplode
-    AmmoPool:
-        Ammo: 69
-        ReloadDelay: 5
-        AmmoCondition: ammo
-    ReloadAmmoPool:
-        Delay: 5
-        RequiresCondition: EngineHere
     ExternalCondition:
         Condition: EngineHere
     RenderSprites:

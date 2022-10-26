@@ -29,7 +29,6 @@ factengineer:
 	Tooltip:
 		Name: Mr. Engineerington
 	Sellable:
-		RequiresCondition: !build-incomplete && !chrono-vortex && !being-captured && !being-demolished
 	ProductionBar@Building:
 		ProductionType: Building
     ProductionBar@Defense:
@@ -117,10 +116,9 @@ RepairBot2:
 		CloakTypes: Cloak
 		Range: 1c0
     Targetable:
-		RequiresCondition: !parachute
 		TargetTypes: GroundActor, Infantry, Disguise
 	Targetable@HEAL:
-		RequiresCondition: !parachute && damaged
+		RequiresCondition: damaged
 		TargetTypes: Heal
 	GrantConditionOnDamageState@DAMAGED:
 		Condition: damaged

@@ -266,7 +266,6 @@ BTEK:
 		Amount: -200
 	ProvidesPrerequisite@buildingname:
     ProvidesRadar:
-		RequiresCondition: !jammed && !disabled
     GpsPower:
 		PauseOnCondition: disabled
 		Icon: gps

@@ -30,7 +30,7 @@ BUSHBOMB:
 	GrantConditionOnDeploy:
 		DeployedCondition: triggered
 	KillsSelf:
-		RequiresCondition: invulnerability || triggered
+		RequiresCondition: triggered
     Explodes:
 		Weapon: BushBomb
 		EmptyWeapon: BushBomb

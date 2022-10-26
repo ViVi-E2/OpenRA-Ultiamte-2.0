@@ -63,7 +63,7 @@ VEST:
 	GrantConditionOnDeploy:
 		DeployedCondition: triggered
 	KillsSelf:
-		RequiresCondition: invulnerability || triggered
+		RequiresCondition: triggered
     Explodes:
 		Weapon: BombVest
 		EmptyWeapon: BombVest
