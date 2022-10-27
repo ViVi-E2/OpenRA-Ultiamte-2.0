@@ -537,6 +537,10 @@ e2:
 		Start: 64
 		Length: 20
 		Facings: 8
+    bite:
+		Start: 64
+		Length: 20
+		Facings: 8
 	parachute:
 		Start: 505
 	idle1:
@@ -605,6 +609,8 @@ e2:
 dog:
 	stand:
 		Facings: 8
+    stand2:
+		Facings: 8
 	walk:
 		Start: 8
 		Length: 6
@@ -616,6 +622,11 @@ dog:
 		Facings: 8
 		Tick: 80
 	eat:
+		Start: 104
+		Length: 14
+		Facings: 8
+		Tick: 120
+    bite:
 		Start: 104
 		Length: 14
 		Facings: 8
@@ -1002,6 +1013,8 @@ e4:
 
 gnrl:
 	stand:
+		Facings: 8
+    stand2:
 		Facings: 8
 	run:
 		Start: 8
