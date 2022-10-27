@@ -47,7 +47,6 @@ ExpandSmall:
         NoTransformNotification: BuildingCannotPlaceAudio
     MustBeDestroyed:
         RequiredForShortGame: true
-		Condition: invulnerability
     RenderSprites:
 		Image: Ant
         
