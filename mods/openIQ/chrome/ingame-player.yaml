@@ -522,12 +522,6 @@ Container@PLAYER_WIDGETS:
 							TooltipText: Biter
 							TooltipContainer: TOOLTIP_CONTAINER
 							ProductionGroup: BiterClass
-							Key: ProductionTypeBiter
-							Children:
-								Image@ICON:
-									X: 6
-									Y: 6
-									ImageCollection: production-icons
 						ProductionTypeButton@VEHICLE:
 							Logic: AddFactionSuffixLogic
 							Y: 93

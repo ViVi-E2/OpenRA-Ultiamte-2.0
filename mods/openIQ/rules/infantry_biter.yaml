@@ -47,9 +47,7 @@ ExpandSmall:
         NoTransformNotification: BuildingCannotPlaceAudio
     MustBeDestroyed:
         RequiredForShortGame: true
-    	TransferTimedExternalConditionOnTransform:
 		Condition: invulnerability
-    	AttackFrontal:
     RenderSprites:
 		Image: Ant
         

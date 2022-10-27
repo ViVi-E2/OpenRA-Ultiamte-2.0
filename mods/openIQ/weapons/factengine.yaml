@@ -324,12 +324,6 @@ NuclearShell:
 	Warhead@11Res_areanuke2: DestroyResource
 		Size: 3
 		Delay: 10
-	Warhead@12Smu_areanuke2: LeaveSmudge
-		SmudgeType: Scorch
-		ValidTargets: Ground, Infantry
-		Size: 3
-		Delay: 10
-		DamageTypes: Prone50Percent, TriggerProne, FireDeath, Incendiary
 	Warhead@21Shake: ShakeScreen
 		Duration: 20
 		Intensity: 5
@@ -450,12 +444,6 @@ NuclearArtyShell:
 	Warhead@11Res_areanuke2: DestroyResource
 		Size: 3
 		Delay: 10
-	Warhead@12Smu_areanuke2: LeaveSmudge
-		SmudgeType: Scorch
-		ValidTargets: Ground, Infantry
-		Size: 3
-		Delay: 10
-		DamageTypes: Prone50Percent, TriggerProne, FireDeath, Incendiary
 	Warhead@21Shake: ShakeScreen
 		Duration: 20
 		Intensity: 5
