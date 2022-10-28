@@ -443,7 +443,7 @@ LargeSpitter:
 			Radius: 750
     Wanders:
         MinMoveDelay: 1
-        MaxMoveDelay: 69
+        MaxMoveDelay: 68
         WanderMoveRadius: 2
         
     RenderSprites:
